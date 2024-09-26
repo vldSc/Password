@@ -50,6 +50,7 @@ def main():
         else:
             print("Upss! We can't gnerate a password without characters! Try again! \n")
 
+        # Asking the user if they want to generate another password
         while True:
             retry = input(
                 "Do you want to try again?\nType 'y' for yes or 'n' for no.  ").lower()
